@@ -5,7 +5,7 @@ on:
 
 job:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-    name: Print a Message
-    run:echo"Hello, this is a test for CI/CD pipeline"
+    - name: Print a Message
+    run: echo "Hello, this is a test for CI/CD pipeline"
