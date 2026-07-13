@@ -1,0 +1,11 @@
+name: Testing CI/CD pipeline
+on:
+ push:
+  branches: [ main ]
+
+job:
+  build:
+    runs-on:ubuntu-latest
+    steps:
+    name: Print a Message
+    run:echo"Hello, this is a test for CI/CD pipeline"
